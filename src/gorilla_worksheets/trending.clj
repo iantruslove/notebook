@@ -1,13 +1,16 @@
 ;; gorilla-repl.fileformat = 1
 
 ;; **
-;;; # Gorilla REPL
-;;; 
-;;; Welcome to gorilla :-)
-;;; 
-;;; Shift + enter evaluates code. Hit ctrl+g twice in quick succession or click the menu icon (upper-right corner) for more commands ...
-;;; 
-;;; It's a good habit to run each worksheet in its own namespace: feel free to use the declaration we've provided below if you'd like.
+;;; # Trending
+;;;
+;;; `<shift>+<enter>` evaluates code.
+;;;
+;;; Hit ctrl+g twice in quick succession or click the menu icon (upper-right corner) for more commands...
+;;;
+;; **
+
+;; **
+;;; Set up the ns and define useful functions:
 ;; **
 
 ;; @@
@@ -46,6 +49,10 @@
 ;; =>
 ;;; {"type":"html","content":"<span class='clj-var'>#&#x27;gorilla-worksheets.trending/decay-trailing-n</span>","value":"#'gorilla-worksheets.trending/decay-trailing-n"}
 ;; <=
+
+;; **
+;;; Set up some data
+;; **
 
 ;; @@
 (def values [5 7 6 7 4 7 6 5 6 10 5 8 3 6 5 4 7 5 5 7 10
